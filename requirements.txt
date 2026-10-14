@@ -1,0 +1,2 @@
+# Version used in the current Chapter 3 study environment.
+torch==2.14.0

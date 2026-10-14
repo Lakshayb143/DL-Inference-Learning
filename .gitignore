@@ -1,0 +1,35 @@
+# Local environments and Python-generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local machine and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Downloaded reference material; link to the authors' repository instead
+/1.Pytorch/Deep Learning with PyTorch Second Edition Source Code/
+
+# Generated datasets, checkpoints, and benchmark artifacts
+data/
+datasets/
+checkpoints/
+runs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.plan
