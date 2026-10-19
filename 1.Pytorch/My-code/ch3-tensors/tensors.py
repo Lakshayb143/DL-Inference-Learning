@@ -22,3 +22,17 @@ print(points[None]) # doubt need to learn about it. e
 
 print("\n")
 print(points.shape)
+
+
+print("\n\n\n")
+
+
+p = torch.rand(2,2)
+print(p)
+
+
+print(p.unsqueeze(0).shape)
+print(p.unsqueeze(1).shape)
+print(p.unsqueeze(2).shape)
+# print(p.unsqueeze(3).shape)
+# above line will not work because ? figure out.

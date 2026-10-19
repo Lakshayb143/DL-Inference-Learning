@@ -13,4 +13,13 @@ tensor_a = torch.tensor([[1, 2, 3],
 tensor_b = torch.tensor([[[10, 20, 30]],
                          [[40, 50, 60]]]) # 2x1x3 tensor
 result = tensor_a + tensor_b
-result
+
+
+
+p = torch.tensor([6,2,3])
+w = torch.tensor([
+    [10,20,30],
+    [40,50,60]
+])
+
+print(p*w)
